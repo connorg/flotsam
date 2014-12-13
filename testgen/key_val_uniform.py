@@ -47,7 +47,7 @@ class KeyValUniTestGen(KeyValTestGen):
       result.append(json.dumps(test))
       test = dict(op="get", key=key)
       result.append(json.dumps(test))
-      if i==20 or i==21:#random.random() < 0.01 and self.can_fail():
+      if random.random() < 0.01 and self.can_fail():
         newly_failed = random.choice(sorted(list(set(xrange(self.num_nodes)).difference(self.current_failures))))
         self.mark_failed(newly_failed)
         if random.random() < 0.5:
