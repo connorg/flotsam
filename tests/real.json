@@ -1,0 +1,14 @@
+{
+  "name": "real implementations",
+  "candidates": [
+      "lite-raft",
+      "kayvee",
+      "raftd"
+    ],
+  "tests": [
+      {
+        "gen": "key_val_uniform",
+        "comp": "basic"
+      }
+    ]
+}

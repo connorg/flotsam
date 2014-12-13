@@ -1,0 +1,13 @@
+{
+  "name": "raftd versus raftd-forgetful, basic",
+  "candidates": [
+      "raftd",
+      "raftd_forgetful"
+    ],
+  "tests": [
+      {
+        "gen": "key_val_uniform",
+        "comp": "basic"
+      }
+    ]
+}
