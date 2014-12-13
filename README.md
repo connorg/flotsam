@@ -43,5 +43,8 @@ Run `setup/setup.sh` as root to interactively setup your environment; this will
 install dependencies and build Docker images using the specifications in this
 repository.
 
-## Run as root
+## Run
 Flotsam, due to its use of Docker, must be run as root.
+
+To run a test (like those provided in `tests/`), run
+`./run_test.py tests/toy.json` as root.
